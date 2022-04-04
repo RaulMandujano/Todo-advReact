@@ -1,15 +1,15 @@
-import Header from '../src/components/Header'
-import Footer from '../src/components/Footer'
-import Body from '../src/components/Body'
+
+import Header from './components/Header';
+import List from './components/List';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
 
       <Header />
-      <Body />
+      <List />
       <Footer />
-
     </div>
   );
 }

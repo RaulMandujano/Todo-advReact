@@ -3,7 +3,7 @@ import '../../src/index.css';
 const Footer = () => {
 
     return (
-        <div class="footer">
+        <div className="footer">
         <span>You have 1 pending tasks.</span>
         <button>Clear Done</button>
       </div>
